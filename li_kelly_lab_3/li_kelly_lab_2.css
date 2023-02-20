@@ -1,0 +1,103 @@
+*{
+    color:rgb(12, 12, 137)
+
+}
+/* This is the global styling, where I 
+changed all the text colors to dark bluish purple. */
+
+/* This is adjusts my title class aka the heading. (Local) */
+.title{
+    font-family: fantasy;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+/* This adjusts the images under reviews to be the same size (global) */
+img{
+    width: 200px;
+}
+
+/*This is for my (local) ID banner for the banner under my heading to be bigger. Otherwise, it would
+be set to the img styling above where it is 200px. I want it to be 900px */
+#banner{
+    width: 900px;
+}
+
+/* This is applied to the whole body section (global) so that the font is uniform */
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* This is applied to my reviews ID specificially (local) */
+#reviews{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    background-color: blanchedalmond;
+    margin:70px 0px 10px 10px;
+
+}
+
+/* This is for my review section (local) to make the border around the rankings */
+.rvw{
+    border: 5px dashed rgba(36, 40, 157, 0.563)
+}
+
+/* This is for my tbw class (local) */
+
+.tbw{
+    background-color: rgba(199, 209, 149, 0.744);
+    padding: 10px 70px 30px 10px;
+    border: 10px solid rgb(7, 7, 129);
+    margin: 20px 10px 20px 10px;
+    
+    /* This new styling element below allows us to make the box extend inline to the text rather than it extend 
+    and have so much empty space of color */
+    display: inline-block
+}
+
+/*local styling (class)*/
+.creations{
+    background-color: rgba(139, 194, 207, 0.571);
+    text-align: right;
+    padding: 20px 10px 40px 10px;
+    margin: 30px 10px 50px 10px;
+
+    /* This new styling element gives our boxes a shadow */
+    box-shadow: 5px 5px 5px 2px rgb(108, 103, 103);
+}
+
+/*local styling (class)*/
+.plans{
+    background-color: rgba(178, 151, 200, 0.434);
+    padding: 10px 10px 30px 10px;
+    margin: 50px 10px 30px 10px;
+
+    /* This cool new styling element lets the font be vertical rather 
+    than the boring horizontal. It adds a touch of spice into my website */
+    writing-mode:vertical-lr;
+}
+
+/*local styling (class)*/
+.message{
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    height: 200px;
+    background-color: antiquewhite;
+}
+
+/*local styling (ID) for my small contact info box. */
+#contacts{
+    margin: 20px 10px 20px 10px;
+    border:3px dashed black;
+    height: 60px;
+    width: 250px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+   
+    /* new styling element transform translates our box 200px to the right and 5px up.*/
+    transform: translate(200px,-5px);
+    /* This styling element below gives my text a yellow blur shadow */
+    text-shadow: 2px 2px 5px rgb(223, 216, 17);
+
+}
